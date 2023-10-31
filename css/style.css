@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #404347 url(../images/fondo.gif) repeat-x;
+  font-variant: small-caps;
+  color: #60c3db;
+  font-family: arial;
+}
+
+.container {
+  font-family: 'Courier New', Courier, monospace;
+  width: 980px;
+  text-align: center;
+}
+
+.labels{
+  display: flex;
+  flex-direction: column;
+}
+
+.labels__link{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 10px 50px 10px 50px;
+  text-decoration: none;
+  color: white;
+}
+
+.labels__link--about{
+  background-color: green;
+  position: absolute;
+  left: -120px;
+}
+
+.labels__link--about:hover{
+  left: 0px;
+  transition-duration: 1s;
+}
+
+.labels__link--blog{
+  background-color: blue;
+  position: absolute;
+  top: 150px;
+  left: -90px;
+}
+
+.labels__link--blog:hover{
+  left: 0px;
+  transition-duration: 1s;
+}
+
+.labels__link--projects{
+  background-color: red;
+  position: absolute;
+  top: 200px;
+  left: -120px;
+}
+
+.labels__link--projects:hover{
+  left: 0px;
+  transition-duration: 1s;
+}
+
+.labels__link--contact{
+  background-color: gray;
+  position: absolute;
+  top: 250px;
+  left: -120px;
+}
+
+.labels__link--contact:hover{
+  left: 0px;
+  transition-duration: 1s;
+}
